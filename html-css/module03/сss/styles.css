@@ -8,6 +8,7 @@
     padding: 0;
     list-style: none;
     text-align: auto;
+    color: black;
 }
 
 .navigation li{
@@ -75,7 +76,7 @@ a {text-decoration: none;
     display: inline-block;
     width: 165px;
     height: 60px;
-    margin: 0px 0px 0px 358px;
+    margin: 0px 0px 71px 358px;
     font-family: 'Playfair Display', serif;
  }
 
