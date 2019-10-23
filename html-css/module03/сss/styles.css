@@ -7,7 +7,10 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: auto;
+    text-align: center;
+    
+}
+a {
     color: black;
 }
 
@@ -17,19 +20,13 @@ display: inline-block;
 .page-nav{
     padding: 77px 0;
 }
-.navigation li:first-child{
-    margin-left: 163px;
-    margin-right: 60px;
-}
-.navigation li:not(:first-child, :last-child){
-    margin-left: 60px;
-    margin-right: 48px;
-}
-.navigation li:last-child{
-    margin-right: 163px;
-    margin-left: 47px;
-}
-.navigation a:hover{
+
+.navigation li{
+    margin-right: 53px;
+    margin-left: 53px;
+    }
+
+.navigation :hover{
     color: blue;
 }
 
