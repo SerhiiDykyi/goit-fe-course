@@ -203,7 +203,7 @@ section:hover .name-product{
 }
 
 .btn-more{
-    padding: 20px 40px;
+    padding: 17px 40px;
     border-radius: 3px;
     filter: drop-shadow(1px 1.732px 2.5px rgba(0,0,0,0.39));
     background-color: #4ec6ab;
@@ -214,9 +214,9 @@ section:hover .name-product{
     text-align: auto;
     cursor: pointer;
 }
-.news{
+/* .news{
     margin-bottom: 61px;
-}
+} */
 
 .news-post{
     float: left;
