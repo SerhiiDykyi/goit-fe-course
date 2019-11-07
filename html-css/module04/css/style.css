@@ -211,7 +211,7 @@ section:hover .name-product{
     color: #ffffff;
     font-family: "Open Sans";
     font-weight: 300;
-    text-align: auto;
+    text-align: center;
     cursor: pointer;
 }
 /* .news{
