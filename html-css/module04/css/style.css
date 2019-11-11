@@ -1,6 +1,7 @@
 .wrapper {
     width: 1110px;
     margin: 0 auto;
+    padding-top: 38px;
 }
 
 .clearfix::after{
@@ -9,9 +10,9 @@ content: '';
 clear: both;
 }
 
-.page-header{
+/* .page-header{
     margin-top: 38px;
-}
+} */
 
 .site-logo{
     float: left;
@@ -140,7 +141,6 @@ section{
     height: 40px;
     padding-top: 4px;
     background-color: #ffffff70;
-    
     }
 
     .name-product h3{
