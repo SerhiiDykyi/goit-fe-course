@@ -161,7 +161,6 @@ img {
 }
 
 
-
 /* NEW COLLECTION */
 
 
@@ -316,10 +315,10 @@ img {
     width: 160px;
     height: 50px;
     background-color: #323232;
-    
+
 }
 
-.card-hover-clild .btn-cart i{
+.card-hover-clild .btn-cart i {
     position: absolute;
     left: 12px;
     bottom: 12px;
@@ -334,7 +333,7 @@ img {
     font-weight: 400;
     text-align: right;
     text-transform: uppercase;
-} 
+}
 
 .card-hover-clild i {
     color: #ffffff;
@@ -343,12 +342,13 @@ img {
 .card-btn button:hover {
     background-color: #1abc9c;
 }
+
 .card:hover .card-hover-clild,
-.card:focus .card-hover-clild{
+.card:focus .card-hover-clild {
     opacity: 1;
 }
 
-.overley-card{
+.overley-card {
     position: absolute;
     display: block;
     width: 100%;
