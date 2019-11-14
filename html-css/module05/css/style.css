@@ -79,7 +79,14 @@ img {
 /* SLIDE AND BUTTON */
 
 .slide {
+    height: 600px;
     position: relative;
+}
+
+.slide img{
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
 }
 
 .overley {
