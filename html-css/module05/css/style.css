@@ -1,0 +1,381 @@
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.conteiner {
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 95px;
+}
+
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+/* HEAD */
+
+.page-header {
+    margin-bottom: 28px;
+}
+
+.site-logo {
+    float: left;
+    font-size: 30px;
+    line-height: 32px;
+    color: #555252;
+    font-family: "Roboto";
+    font-weight: 300;
+    text-transform: uppercase
+}
+
+.site-logo:first-letter {
+    color: #1abc9c;
+    font-weight: 900;
+}
+
+.site-navigation {
+    float: right;
+    margin: 0;
+    margin-top: 7px;
+    padding: 0;
+    width: 490px;
+}
+
+.site-navigation a {
+    font-size: 14px;
+    line-height: 11px;
+    color: #0f0101;
+    font-family: "Open Sans";
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.site-navigation li a:hover,
+.site-navigation li a:focus {
+    color: #1abc9c;
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 34px;
+}
+
+.site-navigation li {
+    float: left;
+}
+
+
+/* SLIDE AND BUTTON */
+
+.slide {
+    position: relative;
+}
+
+.overley {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 0.52;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.slide_info {
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide_info h2 {
+    font-size: 60px;
+    line-height: 82px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.slide_info h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+
+.slide-button {
+    display: block;
+    position: absolute;
+    width: 1110px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slide-ctrl {
+    position: absolute;
+    display: inline-block;
+    width: 104px;
+    height: 104px;
+    font-size: 100px;
+    color: white;
+    text-align: auto;
+    background-color: #1abc9c;
+    opacity: 0.52;
+    border: none;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.slide-ctrl-prev {
+    left: 0;
+}
+
+.slide-ctrl-next {
+    right: 0;
+}
+
+.slide-ctrl:hover {
+    opacity: 1;
+}
+
+
+
+/* NEW COLLECTION */
+
+
+main {
+    background-color: #e9f0fd;
+}
+
+.collection {
+    font-size: 48px;
+    line-height: 32px;
+    color: #515151;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.collection::after {
+    position: relative;
+    display: block;
+    width: 161px;
+    height: 7px;
+    background-color: #1abc9c;
+    content: '';
+    margin: 0 auto;
+    margin-top: 34px;
+    margin-bottom: 82px;
+}
+
+img {
+    display: block;
+}
+
+.collection-card {
+    list-style: none;
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    display: inline-block;
+    width: 255px;
+    height: 322px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+
+.card:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.name-product {
+    width: 255px;
+    height: 40px;
+    display: block;
+    background-color: #000000;
+    position: relative;
+}
+
+.name-product h3 a {
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.name-product h3 {
+    padding-top: 4px;
+    padding-left: 12px;
+}
+
+.name-product span {
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.price {
+    /* display: block; */
+    width: 55px;
+    height: 40px;
+    padding-top: 4px;
+    background-color: #ffffff70;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.cadr-hover {
+    width: 235px;
+    height: 260px;
+    background-color: #000000;
+
+}
+
+.card-hover-parent {
+    width: 255px;
+    height: 282px;
+    position: relative;
+}
+
+.card-hover-clild {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 235px;
+    height: 260px;
+    opacity: 0;
+}
+
+.card-btn button:nth-child(3) {
+    margin-right: 0px;
+}
+
+.card-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card:hover .name-product {
+    background-color: #1abc9c;
+}
+
+.card-hover-clild button {
+    display: inline-block;
+    padding-top: 6px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    opacity: 1;
+    background: none;
+    border: 1px solid #ffffff;
+}
+
+.card-hover-clild .btn-cart {
+    display: inline-block;
+    padding: 0px 18px;
+    margin: 0px;
+    margin: 0px;
+    width: 160px;
+    height: 50px;
+    background-color: #323232;
+    
+}
+
+.card-hover-clild .btn-cart i{
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    font-size: 30px;
+}
+
+.card-btn .btn-cart {
+    font-size: 14px;
+    line-height: 32px;
+    color: #fefefe;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+background-color: none;
+} 
+
+.card-hover-clild i {
+    color: #ffffff;
+}
+
+.card-btn button:hover {
+    background-color: #1abc9c;
+}
+.card:hover .card-hover-clild,
+.card:focus .card-hover-clild{
+    opacity: 1;
+}
+
+.overley-card{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 0.52;
+    z-index: 0;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 16px;
+    line-height: 28px;
+    color: #fefefe;
+    font-family: "Open Sans";
+    font-weight: 400;
+    text-align: center;
+    background-color: #323232;
+    padding-top: 37px;
+    padding-bottom: 34px;
+}
+
+footer a {
+    color: #46bfa9;
+}
