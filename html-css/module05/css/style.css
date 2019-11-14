@@ -139,7 +139,7 @@ img {
     height: 104px;
     font-size: 100px;
     color: white;
-    text-align: auto;
+    text-align: center;
     background-color: #1abc9c;
     opacity: 0.52;
     border: none;
@@ -334,7 +334,6 @@ img {
     font-weight: 400;
     text-align: right;
     text-transform: uppercase;
-background-color: none;
 } 
 
 .card-hover-clild i {
