@@ -97,6 +97,7 @@ h2{
     text-align: center;
 }
 
+
 .hed{
     margin-top: 20px;
     font-size: 30px;
@@ -134,8 +135,6 @@ h2{
     font-family: "Roboto";
     font-weight: 400;
 }
-
-
 
 .services{
     flex: 0 0 370px;
@@ -321,7 +320,27 @@ footer{
     text-align: center;
 }
 
-footer button{
+footer p{
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+footer a{
+    color: #f38181;
+}
+
+input[type=text]{
+    margin: 0;
+    padding: 0;
+    width: 230px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;
+}
+
+input[type=submit]{
     margin: 0;
     padding: 0;
     font-size: 14px;
@@ -336,26 +355,6 @@ footer button{
     text-transform: uppercase;
 }
 
-footer p{
-    font-size: 14px;
-    color: #333333;
-    font-family: "Montserrat";
-    font-weight: 400;
-}
-
-footer a{
-    color: #f38181;
-}
-
-input{
-    margin: 0;
-    padding: 0;
-    width: 230px;
-    height: 40px;
-    background-color: #ffffff;
-    border: 1px solid #e7e7e7;
-}
-
 input::placeholder {
     margin-left: auto;
     font-size: 15px;
@@ -364,8 +363,11 @@ input::placeholder {
     font-family: "Roboto";
     font-weight: 300;
     font-style: italic;
+    cursor: pointer;
+    padding-left: 10px;
 }
 
-.inpt{
-    margin-left: auto;
+form{
+    display: flex;
 }
+
