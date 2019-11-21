@@ -144,6 +144,8 @@ h2{
 }
 
 .services img{
+    width: 33px;
+    height: 33px;
     position: absolute;
     top: 0;
     left: 20px;
