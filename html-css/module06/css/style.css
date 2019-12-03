@@ -87,6 +87,42 @@
     text-align: left;
 }
 
+.services::before{
+    content: "";
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    /* background-color: teal; */
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+
+.icon-alarm::before{
+    background-image: url(../img/1-ALARM.png);
+}
+
+.icon-line_graph::before{
+    background-image: url(../img/2-LINE_GRAPH.png);
+}
+
+.icon-computer::before{
+    background-image: url(../img/3-COMPUTER.png);
+}
+
+.icon-book::before{
+    background-image: url(../img/4-BOOK.png);
+}
+
+.icon-home::before{
+    background-image: url(../img/5-HOME.png);
+}
+
+.icon-image::before{
+    background-image: url(../img/6-IMAGE.png);
+}
+
 h2{
     margin: 0;
     padding: 0;
@@ -145,14 +181,14 @@ h2{
 
 }
 
-.services img{
+/* .services img{
     width: 33px;
     height: 33px;
     display: block;
     position: absolute;
     top: 0;
     left: 20px;
-}
+} */
 
        /* OUR TEAM */
 
