@@ -128,15 +128,41 @@ h2 .hed-descr {
 }
 
 .services-description {
-    position: relative;
+    /* position: relative; */
     max-width: 290px;
     width: 100%;
-    padding-top: 82px;
+    /* padding-top: 82px; */
     text-align: center;
     margin-bottom: 120px;
 }
 
-.services-icons {
+.services-description::before{
+    content: "";
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 33px;
+    background-color: #ffffff;
+    border: 3px solid #fed136;
+    fill: #FED136;
+}
+
+.icons-basket::before{
+    background-image: url(../img/icons/1-Icon-Basket.png);
+    fill: #FED136;
+}
+
+.icon-laptop::before{
+    background-image: url(../img/icons/2-Icon-Laptop.png);
+}
+
+.icon-locked::before{
+    background-image: url(../img/icons/3-Icon-Locked.png);
+    fill: #FED136;
+}
+/* .services-icons {
     position: absolute;
     top: 0;
     left: 50%;
@@ -148,7 +174,7 @@ h2 .hed-descr {
     border: 3px solid #fed136;
     background-repeat: no-repeat;
     background-position: center;
-}
+} */
 
 .basket {
     background-image: url(../img/icons/1-Icon-Basket.png);
