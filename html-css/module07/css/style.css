@@ -38,7 +38,7 @@
 }
 
 @font-face {
-    font-family: "Roboro Slab";
+    font-family: "Roboro light";
     src: url("../fonts/RobotoSlab-Regular/RobotoSlab-Regular.woff") format("woff"),
         url("../fonts/RobotoSlab-Regular/RobotoSlab-Regular.woff2") format("woff2");
     font-weight: 400;
@@ -100,26 +100,23 @@
 
 /* SERVICES */
 
-.hed-descr {
-    text-align: center;
-    margin-bottom: 76px;
-}
-
-h2 .hed {
+h2 {
     font-family: "Montserrat bold";
     font-size: 40px;
     text-transform: uppercase;
+    text-align: center;
     line-height: 75px;
 }
 
-h2 .hed-descr {
+p {
     font-family: "Droid serif";
     font-size: 16px;
     color: #777777;
+    text-align: center;
 }
 
 .services {
-    margin: 0;
+    margin-top: 78px;
     padding: 0;
     display: flex;
     list-style: none;
@@ -176,32 +173,22 @@ h2 .hed-descr {
 
 footer {
     background-color: #222222;
-    position: relative;
+    background-image: url(../img/Map.png);
+    background-repeat: no-repeat;
+    background-position: right 0px top 118px;
+    
 }
 
-footer img {
+/footer img {
     opacity: 0.33;
-    position: absolute;
-    right: 0;
-    top: 118px;
-}
+} 
 
 .contact {
     padding-top: 104px;
 }
 
 .contact h2 {
-    text-align: center;
-    font-size: 40px;
     color: #ffffff;
-    font-family: "Montserrat bold";
-}
-
-.contact-descr {
-    font-size: 16px;
-    color: #777777;
-    font-family: "Droid serif";
-    text-align: center;
 }
 
 .inpyt-area {
