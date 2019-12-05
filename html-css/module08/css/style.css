@@ -34,38 +34,49 @@
     font-size: 20px;
     color: #ffffff;
     font-family: "Montserrat bold";
-    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
+.site-navigation {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 170px;
+    height: auto; */
+}
+
+.site-navigation li{
+    display: flex;
+    width: 90px;
+    height: 36px;
+    /* padding-top: 3px; */
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    border-radius: 18px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
 .site-navigation a {
-    /* display: block; */
     font-size: 14px;
     color: #ffffff;
     font-family: "Montserrat bold";
     font-weight: 400;
     cursor: pointer;
-    width: 90px;
-    height: 36px;
-    padding: 9px 15px;
-    /* padding-top: 6px; */
+    justify-content: center;
     text-align: center;
 }
 
-.site-navigation {
-    /* margin-top: 32px; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 170px;
-}
-
-.site-navigation li a:hover,
-.site-navigation li a:focus {
-    padding: 9px 13px;
+.site-navigation li:hover,
+.site-navigation li:focus {
+    /* padding: 9px 13px; */
     border-radius: 18px;
     border: 2px solid #ffffff;
 }
+
+             /* DESCRIPTION */
 
 .dreams {
     font-family: "Montserrat bold";
@@ -326,7 +337,7 @@ button {
 
     .navigation {
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         padding-top: 46px;
         margin: 0px 44px 152px;
     }
