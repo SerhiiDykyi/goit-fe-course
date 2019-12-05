@@ -143,6 +143,7 @@ p {
     border: 3px solid #fed136;
 }
 
+
 .icons-basket::before{
     background-image: url(../img/icons/1-Icon-Basket.png);
 }
