@@ -230,6 +230,7 @@ button {
         display: flex;
         flex-direction: column-reverse;
         padding-bottom: 34px;
+        align-items: center;
     }
 
     .site-navigation {
@@ -337,7 +338,7 @@ button {
 
     .navigation {
         display: flex;
-        /* justify-content: space-between; */
+        justify-content: space-between;
         padding-top: 46px;
         margin: 0px 44px 152px;
     }
