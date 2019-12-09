@@ -43,17 +43,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* width: 170px;
-    height: auto; */
 }
 
 .site-navigation li{
     display: flex;
     width: 90px;
     height: 36px;
-    /* padding-top: 3px; */
     justify-content: center;
-    /* text-align: center; */
     align-items: center;
     border-radius: 18px;
     border: 2px solid rgba(255, 255, 255, 0);
@@ -71,7 +67,6 @@
 
 .site-navigation li:hover,
 .site-navigation li:focus {
-    /* padding: 9px 13px; */
     border-radius: 18px;
     border: 2px solid #ffffff;
 }
@@ -105,7 +100,6 @@ button {
     font-size: 14px;
     color: #ffffff;
     font-family: "Montserrat bold";
-    /* margin-bottom: 210px; */
     text-align: center;
 }
 
@@ -202,7 +196,7 @@ button {
     background-image: url(../img/icons/4-icon.png);
 }
 
-.list-partners h3 {
+.name-partner {
     font-size: 14px;
     color: #333333;
     font-family: "Montserrat bold";
@@ -322,6 +316,8 @@ button {
 
     .wrapper {
         min-width: 940px;
+        max-width: 1440px;
+        width: 100%;
         padding: 0;
         height: 701px;
         margin: 0 auto;
