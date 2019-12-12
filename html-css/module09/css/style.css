@@ -1,0 +1,337 @@
+@font-face {
+    font-family: "Montserrat bold";
+    src: url("../fonts/Montserrat-bold/Montserrat-Bold.woff") format("woff"),
+        url("../fonts/Montserrat-bold/Montserrat-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboro Light";
+    src: url("../fonts/Roboto-Light/fonts/Roboto-Light.woff") format("woff"),
+        url("../fonts/Roboto-Light/fonts/Roboto-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+.wrapper {
+    height: 540px;
+    margin: 0 auto;
+    background-color: #1A1915;
+    background-image: url(../img/background-img/img-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Montserrat bold";
+    cursor: pointer;
+}
+
+.site-navigation {
+    width: 180px;
+    list-style: none;
+    display: flex;
+}
+
+.site-navigation li{
+    display: flex;
+    width: 90px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+
+.site-navigation a {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Montserrat bold";
+    font-weight: 400;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+}
+
+.site-navigation li:hover,
+.site-navigation li:focus {
+    border-radius: 18px;
+    border: 2px solid #ffffff;
+}
+
+
+                     /* DESCRIPTION */
+
+.dreams {
+    font-family: "Montserrat bold";
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+}
+
+.find-partner {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: "Roboro Light";
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff4e50;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Montserrat bold";
+    text-align: center;
+}
+
+
+                   /* TEAM PARTNERS */
+
+.team-partners {
+    list-style: none;
+    text-align: center;
+}
+
+.team-partners h2 {
+    font-size: 22px;
+    color: #333333;
+    font-family: "Montserrat bold";
+    text-align: center;
+}
+
+.partner {
+    margin: 0 auto;
+    padding: 0;
+    width: 220px;
+}
+
+.partner-photo {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+.Bradley {
+    background-image: url(../img/partners/1-Layer.png);
+}
+
+.Lucas {
+    background-image: url(../img/partners/2-Layer.png);
+}
+
+.Heather {
+    background-image: url(../img/partners/3-Layer.png);
+}
+
+.Hunter {
+    background-image: url(../img/partners/4-Layer.png);
+}
+
+.partner-photo::before {
+    content: "";
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #4e73db;
+    border: 4px solid #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.Bradley::before {
+    background-color: #ff4e50;
+    background-image: url(../img/icons/1-icon.png);
+}
+
+.Lucas::before {
+    background-color: #ffa507;
+    background-image: url(../img/icons/2-icon.png);
+}
+
+.Heather::before {
+    background-color: #1cd7ad;
+    background-image: url(../img/icons/3-icon.png);
+}
+
+.Hunter::before {
+    background-color: #4e73db;
+    background-image: url(../img/icons/4-icon.png);
+}
+
+.name-partner {
+    font-size: 14px;
+    color: #333333;
+    font-family: "Montserrat bold";
+    text-align: center;
+}
+
+.partner-photo{
+    margin-bottom: 18px;
+}
+
+.about-me {
+    font-size: 14px;
+    color: #666666;
+    font-family: "Roboro Light";
+    margin-top: 14px;
+}
+
+.others {
+    color: #ff4e50;
+    background-color: #ffffff;
+    border: 2px solid #ff4e50;
+}
+
+@media (max-width: 767px){
+    .page-header{
+        margin-top: 22px;
+        margin-bottom: 34px;
+    }
+
+    .site-navigation{
+        margin-bottom: 114px;
+    }
+
+    .heder-center{
+        justify-content: center;
+    }
+
+    .dreams{
+        margin: 0px -15px;
+        margin-bottom: 15px;
+    }
+
+    .find-partner{
+        padding: 0px 32px;
+        margin-bottom: 15px;
+    }
+
+    .new-partner{
+        margin-bottom: 208px;
+    }
+
+    .meet-partner{
+        margin-bottom: 18px;
+    }
+
+    .list-div{
+        margin-bottom: 28px;
+    }
+
+    .two {
+        order: 1;
+    }
+
+    .three {
+        order: 2;
+    }
+
+    .four {
+        order: 3;
+    }
+
+    .others{
+        margin-bottom: 56px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+    .page-header{
+        margin-top: 38px;
+        margin-bottom: 146px;
+    }
+
+    .dreams{
+        margin-bottom: 36px;
+    }
+
+    .find-partner{
+        margin-bottom: 36px;
+    }
+
+    .new-partner{
+        margin-bottom: 308px;
+    }
+
+    .meet-partner{
+        margin-bottom: 32px;
+    }
+
+    .wrapper{
+        height: 700px;
+    }
+    .navigation{
+        flex-direction: row-reverse;
+    }
+
+    .dreams {
+        font-size: 52px;
+    }
+
+    .find-partner {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+    .wrapper {
+        background-image: url(../img/background-img/img-tablet.png);
+    }
+
+    .list-div {
+        margin-bottom: 56px;
+    }
+
+    .list-partners [class*="col-"]:nth-last-child(-n+2) {
+        margin-bottom: 38px;
+    }
+
+    .others{
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .wrapper {
+        max-width: 1440px;
+        background-image: url(../img/background-img/img-dector.png);
+    }
+
+    .list-div {
+        margin-bottom: 36px;
+    }
+
+    .others{
+        margin-bottom: 72px;
+    }
+}
