@@ -293,9 +293,9 @@
             flex: 0 0 380px;
     margin: 0 auto;
     text-align: left;
-    -webkit-transition: 200ms linear;
-    -o-transition: 200ms linear;
-    transition: 200ms linear;
+    -webkit-transition: 900ms linear;
+    -o-transition: 900ms linear;
+    transition: 900ms linear;
 }
 
 .team__card--title{
@@ -381,10 +381,16 @@
     width: 56px;
     height: 56px;
     background-color: #fce38a;
+    -webkit-transition: 200ms linear;
+    -o-transition: 200ms linear;
+    transition: 200ms linear;
 }
 
 .social__icon{
     fill: #f38181;
+    -webkit-transition: 200ms linear;
+    -o-transition: 200ms linear;
+    transition: 200ms linear;
 }
 
 .icon-facebook_svg{
