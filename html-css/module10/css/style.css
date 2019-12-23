@@ -59,7 +59,7 @@
 
 .site-logo {
     font-size: 30px;
-    color: #fce38a;
+    color: #ffffff;
     font-family: "Montserrat";
     font-weight: 700;
     align-items: center;
@@ -75,23 +75,39 @@
     justify-content: space-between;
 }
 
-.site-navigation__item a:hover,
-.menusite-navigation__item a:focus {
-    color: #fce38a;
-    border-bottom: 3px solid #fce38a;
-    padding-bottom: 12px;
-    transition: 200ms linear;
-}
-
 .site-navigation__link {
     font-size: 14px;
-    color: #fce38a;
+    color: #ffffff;
     font-family: "Montserrat";
     font-weight: 400;
     text-transform: uppercase;
     cursor: pointer;
     transition: 200ms linear;
 }
+
+.site-navigation__link:hover,
+.site-navigation__link:focus {
+    color: #fce38a;
+    border-bottom: 3px solid #fce38a;
+    padding-bottom: 12px;
+    transition: 200ms linear;
+}
+
+.icon-logo_svg{
+    width: 18px;
+    height: 18px;
+}
+
+.menu__icon{
+    fill: #ffffff;
+    transition: 200ms linear;
+}
+
+.site-navigation__svg:hover .menu__icon{
+    fill: #fce38a;
+    transition: fill 200ms linear;
+}
+
 
              /* BANNER */
 
