@@ -18,6 +18,7 @@
 }
 
 .footer__link{
+    @extend %link;
     color: $for-after-color;
 }
 

@@ -11,6 +11,7 @@
 }
 
 .site-logo {
+  @extend %link;
   font-size: 30px;
   color: $primery-banner-color;
   font-family: "Montserrat-bold";
@@ -29,6 +30,7 @@
 }
 
 .site-navigation__link {
+  @extend %link;
   font-size: 14px;
   color: $primery-banner-color;
   font-family: $font-stack-regular;
