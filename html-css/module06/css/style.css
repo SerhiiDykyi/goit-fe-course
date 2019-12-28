@@ -92,7 +92,6 @@
     display: inline-block;
     width: 33px;
     height: 33px;
-    /* background-color: teal; */
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -180,15 +179,6 @@ h2{
     margin-bottom: 96px;
 
 }
-
-/* .services img{
-    width: 33px;
-    height: 33px;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 20px;
-} */
 
        /* OUR TEAM */
 

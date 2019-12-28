@@ -30,6 +30,7 @@
     cursor: pointer;
     background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
 }
+
 .conteiner {
     max-width: 1200px;
     width: 100%;
@@ -274,7 +275,7 @@
     flex: 0 0 380px;
     margin: 0 auto;
     text-align: left;
-    transition: 900ms linear;
+    transition: 200ms linear;
 }
 
 .team__card--title{

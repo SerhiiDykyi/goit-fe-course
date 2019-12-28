@@ -1,0 +1,14 @@
+.icon-logo_svg{
+    width: 18px;
+    height: 18px;
+}
+
+.menu__icon{
+    fill: #ffffff;
+    transition: 200ms linear;
+}
+
+.site-navigation__svg:hover .menu__icon{
+    fill: #fce38a;
+    transition: fill 200ms linear;
+}

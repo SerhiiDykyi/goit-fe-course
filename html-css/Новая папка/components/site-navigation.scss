@@ -1,0 +1,26 @@
+.site-navigation {
+    display: flex;
+    margin: 0;
+    padding-bottom: 4px;
+    max-width: 490px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.site-navigation__link {
+    font-size: 14px;
+    color: $primary-wite-color;
+    font-family: $primary-fonts;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: $primary-transition;
+
+    :hover,
+    :focus {
+        color: $primary-yeelow-color;
+        border-bottom: 3px solid $primary-yeelow-color;
+        padding-bottom: 12px;
+        transition: $primary-transition;
+    }
+
+}
